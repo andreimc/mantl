@@ -49,3 +49,14 @@ You can use these variables to customize your Traefik installation.
   
    The mantl default is set to ``true``.
  
+.. data:: traefik_kubernetes_endpoint
+
+   This is the endpoint of your kubernetes masteer
+
+   The mantl default is set to ``https://kubernetes.service.consul:6443``.
+
+.. data:: traefik_kubernetes_namespaces
+
+   These are the namespaces on k8s that traefik should look for
+
+   The mantl default is set to ``["default","production"]``.
