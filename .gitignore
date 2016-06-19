@@ -1,4 +1,5 @@
 docs/_build
+azure_creds
 *.pyc
 .vagrant
 security.yml
@@ -28,3 +29,4 @@ packer_cache/
 account.json
 # annoying osx files
 .DS_Store
+mantl.yml
